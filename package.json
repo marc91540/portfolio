@@ -1,0 +1,22 @@
+{
+  "name": "node-express",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "main": "appPortfolio.js",
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/example/example.git"
+  },
+  "author": "Marc Souchet",
+  "license": "WTFPL",
+  "dependencies": {
+    "express": "~4.14.0"
+  }
+}
