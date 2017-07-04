@@ -117,3 +117,13 @@
 	});
 
 })(jQuery);
+
+
+
+var deleteItem = function() {
+    var deleteItemFnc = $('body').on('click tap', '.btn-delete', function(e) {
+        e.preventDefault();
+        var that = $(this);
+        that.parent().parent().fadeOut('500');
+    })
+}

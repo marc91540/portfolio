@@ -1,22 +1,16 @@
 {
-  "name": "node-express",
+  "name": "marc",
   "private": true,
   "version": "1.0.0",
-  "description": "Portfolio",
-  "keywords": [],
-  "dependencies": {
-    "express": "^4.13.4"
-  },
-  "devDependencies": {},
-  "scripts": {},
+  "description": "express demo with html",
   "main": "appPortfolio.js",
-  "repository": {
-    "type": "git",
-    "url": "git://bitbucket.org/example/example.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marc Souchet",
-  "license": "WTFPL",
+  "author": "marc souchet",
+  "license": "ISC",
   "dependencies": {
     "express": "~4.14.0"
-  }
+  },
+  "devDependencies": {}
 }

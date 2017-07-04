@@ -1210,6 +1210,7 @@
 
 		h2.alt {
 			color: #888;
+			margin-bottom: 40px
 		}
 
 			h2.alt strong {
@@ -1494,6 +1495,132 @@
 				font-size: 1em;
 			}
 
+/* video */
+
+
+@-webkit-keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* The aapaa's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+}
+
+/* The modal box */
+.modal-dialog {
+    margin-top: 120px;
+    vertical-align: middle;
+    height: 481px;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 70%;
+  height: 375px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+/* The button used to close the modal */
+.closebtn {
+    text-decoration: none;
+    float: left;
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    background-image: url(../img/cancel.png);
+    background-repeat: no-repeat;
+    background-position: 90px 50px;
+    background-size: 20%;
+}
+
+
+
+#back{
+    width: 30%;
+    position: relative;
+    left: 16%;
+    top: 9px;
+}
+
+.container {
+    padding: 2px 16px;
+    height: 50px;
+}
+
+.container2 {
+    padding: 6px 8px;
+    height: 574px;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+.none{
+	text-decoration: none;
+	 display: block;
+    width: 22%;
+    height: 59%;
+    position: absolute;
+}
+.none2{
+	text-decoration: none;
+	 display: block;
+    width: 22%;
+    height: 53%;
+    position: absolute;
+}
+
+.none3{
+	text-decoration: none;
+	 display: block;
+    width: 22%;
+    height: 53%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
 /* Icons */
 
 	.icon {
@@ -1592,6 +1719,7 @@
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+
 		}
 
 		#logo p {
@@ -1601,6 +1729,20 @@
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
+			margin-left: 67px;
+			text-align: center;
+		}
+
+		#logo .sous{
+			color: white;
+    		margin-left: 0px;
+    		text-align: -webkit-right;
+		}
+
+		#propo{
+			color: white;
+			font-size: 25px;
+			display: block;
 		}
 
 		#logo .image {
@@ -1660,6 +1802,18 @@
 
 
 /* Main */
+
+#top{
+	 height: 540px;
+
+}
+#about{
+	height: 1380px;
+}
+#contact{
+	 height: 420px;
+}
+
 
 	#main {
 		margin-left: 375px;
@@ -1756,7 +1910,7 @@
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 4em 0;
 			}
 
 	}
@@ -2055,4 +2209,27 @@
 				.image.feature{
 				 margin: 0px 0px 2em 60px;
 			}
+
+			/* Video */
+
+			.closebtn {
+			    width: 26%;
+			    height: 200px;
+			    background-position: 20px 90px;
+			    background-size: 30%;
+			}
+
+			.none2 {
+    			width: 92%;
+    			height: 83%;
+			}
+			.none3 {
+			    width: 92%;
+			    height: 100%;
+			}
+
+
+
+
+
 }
