@@ -127,3 +127,17 @@ var deleteItem = function() {
         that.parent().parent().fadeOut('500');
     })
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
