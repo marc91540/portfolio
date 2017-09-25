@@ -533,6 +533,8 @@
 		.container {
 			width: 100%;
 		}
+    
+        
 
 	}
 
@@ -544,6 +546,9 @@
 	#logo p {
     margin-left: 40px;
 	}
+    #top {
+        height: 725px;
+        }
 
 }
 
@@ -580,7 +585,7 @@
 
 @media screen and (max-width: 975px) {
 	#top {
-	    height: 736px;
+	    height: 776px;
 	}
 	#logo p {
     margin-left: 0px;
@@ -1206,6 +1211,14 @@
     
 }
 
+@media screen and (max-width: 611px) {
+	#top {
+	    height: 625px;
+	}
+    
+}
+
+
 @media screen and (max-width: 550px) {
 	#about {
     	height: 820px;
@@ -1237,6 +1250,12 @@
 	}
 
 }
+@media screen and (max-width: 493px) {
+	#top {
+	    height: 685px;
+	}
+    
+}
 
 @media screen and (max-width: 474px) {
 	#top {
@@ -1252,10 +1271,10 @@
 }
 @media screen and (max-width: 422px) {
 	#top {
-	    height: 780px;
+        height: 920px;
 	}
 	#about {
-    	height: 680px;
+    	height: 580px;
 	}
 	.none2, .none3, .none5, .none6 {
     width: 94%;
@@ -1292,7 +1311,12 @@
     }
 }
 
-
+@media screen and (max-width: 422px) {
+	#top {
+        height: 830px;
+	}
+	
+}
 
 
 
