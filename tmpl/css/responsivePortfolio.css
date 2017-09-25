@@ -1311,13 +1311,32 @@
     }
 }
 
-@media screen and (max-width: 422px) {
+@media screen and (max-width: 400px) {
 	#top {
         height: 830px;
 	}
 	
 }
 
+@media screen and (max-width: 414px) {
+	#top {
+        height: 830px;
+	}
+	
+}
+@media screen and (max-width: 375px) {
+	#top {
+        height: 920px;
+	}
+	
+}
+
+@media screen and (max-width: 320px) {
+	#top {
+        height: 970px;
+	}
+	
+}
 
 
 
